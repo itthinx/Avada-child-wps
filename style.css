@@ -1,0 +1,35 @@
+/**
+ * Theme Name:  Avada Child WPS
+ * Description: Avada child theme that integrates with WooCommerce Product Search's live search facilities. Requires our official WooCommerce Product Search – available exclusively at https://woocommerce.com/products/woocommerce-product-search/
+ * Author:      itthinx
+ * Author URI:  https://www.itthinx.com/
+ * Template:    Avada
+ * Tags:        light, dark, responsive, search
+ * Text Domain: avada-child-wps
+ * Version:     1.0.0
+ */
+
+.fusion-main-menu .fusion-main-menu-search .product-search a::after {
+ content: '';
+}
+
+.fusion-main-menu-search .fusion-custom-menu-item-contents {
+	height: 480px;
+	overflow: scroll;
+}
+.fusion-main-menu-search .product-search .product-search-results {
+	/*left: 15px;*/
+}
+.fusion-main-menu-search .product-search .product-search-form input.product-search-field {
+	width: 100%;
+}
+.fusion-main-menu-search .product-search .product-search-field-clear {
+	position: absolute;
+}
+.fusion-main-menu-search .product-search {
+	word-spacing: 0.2em;
+}
+.fusion-logo .product-search img {
+	width: 32px;
+	height: 32px;
+}
